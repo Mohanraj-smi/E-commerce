@@ -1,0 +1,16 @@
+.bredcrum{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5e5e5e;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 35px 150px;
+    text-transform: capitalize;
+}
+
+@media (max-width:767px){
+    .bredcrum{
+        margin-left: 0px;
+    }
+}

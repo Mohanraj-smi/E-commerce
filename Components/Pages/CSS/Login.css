@@ -1,0 +1,52 @@
+.form{
+    padding-top: 70px;
+    width: 100%;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+.form-container{
+    width: 590px;
+    height: 490px;
+    background: #fff;
+    margin: auto;
+}
+.botom{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.botom button{
+    width: 100px;
+    outline: none;
+    border: none;
+    height: 45px;
+    background-color: slateblue;
+    color: #fff;
+}
+
+.progressbar{
+    width: 580px;
+    height: 20px;
+    background-color: #fff;
+    margin-left: 380px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+.progressbar div{
+    height: 100%;
+    background-color: purple;
+    transition: width 0.5s ease;
+}
+.spinner{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+

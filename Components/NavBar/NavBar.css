@@ -1,0 +1,189 @@
+.navlet{
+    margin-left: 150px;
+}
+.navlet .nav-link{
+    color: black;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.navlet .nav-link:hover{
+    color: slateblue;
+}
+.nav-link{
+    margin: 15px;
+}
+
+.butlet{
+    margin-left: 200px;
+    display: flex;
+    gap: 40px;
+}
+.butlet .loginbtn{
+    width: 100px;
+}
+.butlet .icon{
+    width: 35px;
+    height: 40px;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-right: 55px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 100%;
+}
+
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 30px;
+}  
+.nav-logo p{
+    color: #171717;
+    font-size: 38px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-family: 'poppins',sans-serif;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+
+
+.nav-menu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    cursor: pointer;
+}
+
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 39px;
+    margin-left: 150px;
+}
+.nav-login-cart img{
+    height: 35px;
+}
+.nav-login-cart button{
+    width: 110px;
+    height: 48px;
+    outline: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 9%);
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+
+.nav-cart-count{
+    display: flex;
+    background-color: red;
+    width: 22px;
+    height: 23px;
+    justify-content: center;
+    border-radius: 11px;
+    margin-top: -10px;
+    margin-left: -55px;
+    color: #fff;
+}
+
+@media (max-width:767px){
+    .navbar .side{
+        width: 60px;
+        margin-right: 70px;
+    }
+    .nav-logo p{
+        font-size: 25px;
+    }
+    .nav-logo img{
+        width: 40px;
+        height: 40px;
+    }
+    #basic-nav{
+        margin-left: -140px;
+        margin-bottom: 20px;
+        background: rgba(130,185,187,0.3);
+-webkit-backdrop-filter: blur(20px);
+backdrop-filter: blur(20px);
+border: 1px solid rgba(130,185,187,0.15);
+
+       height: 60vh;
+
+        
+    }
+    .butlet .loginbtn{
+        margin-top: 5px;
+        margin-left: -30px;
+    }
+    .butlet #heartid{
+        margin-left: 96px;
+    }
+    .butlet #cartid{
+        margin-left: -74px;
+        
+    }
+    .nav-cart-count{
+        margin-top: -88px;
+        margin-left: 110px;
+        width: 24px;
+        height: 23px;
+    }
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+<ul className='nav-menu'>
+    <li><Link className='link' style={{textDecoration:"none"}} to='/'>Shop</Link></li>
+    <li><Link className='link' style={{textDecoration:"none"}} to='/mens'>Men</Link>  </li>
+    <li><Link className='link' style={{textDecoration:"none"}} to='/woman'>Woman</Link>  </li>
+    <li><Link className='link' style={{textDecoration:"none"}} to='/kids'>Kids</Link> </li>
+</ul>
+<div className='nav-login-cart'>
+  <Link to='/login'><button>Login</button></Link> 
+  <img src={heart} alt='heart-ion'/>
+
+  <Link to='/cart'><img src={cart} alt='cart-icon' className='cart-icon'/></Link>  
+    
+    <div className='nav-cart-count'>{getTotalCartItems()}</div>
+  
+</div>
+
+*/

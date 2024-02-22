@@ -1,0 +1,41 @@
+.shopcategory-banner{
+    display: block;
+    margin: 30px auto;
+    width: 82%;
+}
+.shopcategory-indexsort{
+    margin: 0px 170px;
+}
+.shopcategory-indexsort span{
+    font-weight: 600;
+}
+.shopcategory-products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    
+}
+.cart-img{
+    margin-top: 25px;
+    width: 265px;
+}
+
+@media (max-width:767px){
+    .shopcategory-products{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+    .shopcategory-indexsort{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+.personal-container{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+.personal-container input{
+    width: 400px;
+    height: 60px;
+    margin-left: 80px;
+    outline: none;
+    font-size: 18px;
+    text-indent: 10px;
+
+}
